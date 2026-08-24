@@ -31,10 +31,12 @@ upstream statistical analysis.
 > E15.5 midbrain discontinuity.
 
 <p align="center">
-  <img src="dtu_analysis/figures/figure01_framework_overview.png"
-       alt="Framework overview showing a bounded diverge-reconverge pattern, the post-inference decision layer, and the mouse brain application"
-       width="100%">
+  <img src="methylation_analysis/figures/figure2_gnao1_composition.png"
+       alt="Gnao1 methylation, relative isoform composition, absolute transcript expression, and evidence hierarchy across mouse brain development"
+       width="88%">
 </p>
+
+<p align="center"><em>A real study application: Gnao1 methylation and transcript redistribution across development.</em></p>
 
 ## Study at a glance
 
