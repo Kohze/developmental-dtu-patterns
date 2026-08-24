@@ -31,12 +31,12 @@ upstream statistical analysis.
 > E15.5 midbrain discontinuity.
 
 <p align="center">
-  <img src="methylation_analysis/figures/figure2_gnao1_composition.png"
-       alt="Gnao1 methylation, relative isoform composition, absolute transcript expression, and evidence hierarchy across mouse brain development"
+  <img src="readme-assets/shtn1-thesis-original.png"
+       alt="Original thesis figure showing Shtn1 methylation and expression across mouse forebrain development"
        width="88%">
 </p>
 
-<p align="center"><em>A real study application: Gnao1 methylation and transcript redistribution across development.</em></p>
+<p align="center"><em>Original thesis figure: Shtn1 methylation and expression across development.</em></p>
 
 ## Study at a glance
 
