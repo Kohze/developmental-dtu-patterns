@@ -1,127 +1,189 @@
-# Systematic developmental DTU-pattern and methylation paper
+<div align="center">
 
-This is the current folder for the manuscript and its reproducibility
-materials. The `dtu_analysis/` and `methylation_analysis/` subdirectories
-contain the analysis code and derived outputs, while `figures/` contains the
-displayed graphical assets. The public repository is
-<https://github.com/Kohze/developmental-dtu-patterns>.
+# Developmental DTU patterns
 
-The repository uses MIT for code and CC BY 4.0 for manuscript content,
-figures, tables and author-created derived data. See `LICENSE` and
-`RELEASE_STATUS.md` for scope and exclusions.
+**A systematic framework for detecting transient developmental transcript-usage patterns in the developing mouse brain**
 
-## Scientific hierarchy
+[![Release](https://img.shields.io/github/v/release/Kohze/developmental-dtu-patterns?include_prereleases&label=release)](https://github.com/Kohze/developmental-dtu-patterns/releases)
+[![Status](https://img.shields.io/badge/status-prepublication-orange)](RELEASE_STATUS.md)
+[![R package](https://img.shields.io/badge/R%20package-transientDTU%200.99.1-276DC3)](https://github.com/Kohze/transientDTU)
+[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue)](LICENSE)
 
-1. A general post-inference framework converts stage-specific DTU evidence and
-   replicate-level transcript fractions into explicitly bounded
-   diverge--reconverge candidates.
-2. Applied to the mouse brain RNA-seq series, the framework resolves a strong
-   E15.5-centred midbrain pattern into 1,348 candidate episodes in 735 genes.
-3. Transcript structure and a fully programmatic ranking identify the six
-   highest-ranked distinct reciprocal genes for independent testing.
-4. A separate secondary audit of 11,002 methylation--isoform tests nominates
-   `Gnao1` and `Taok3` for focused prospective work while showing that their
-   support depends on methylation summarisation and expression scale.
+[Read the manuscript](manuscript.pdf) ·
+[Journal-formatted article](submission_main.pdf) ·
+[Supplementary figures](supplementary_figures.pdf) ·
+[Download a release](https://github.com/Kohze/developmental-dtu-patterns/releases)
 
-## Accompanying R package
+</div>
 
-[`transientDTU`](https://github.com/Kohze/transientDTU) is the reusable R
-implementation of the paper's post-inference decision layer. Version 0.99.1
-accepts generic upstream pairwise-DTU evidence, detects bounded
-diverge--reconverge episodes, checks replicate separation, annotates reciprocal
-events and produces deterministic gene rankings. Its installed regression
-recipe reproduced all 1,348 archived paper episodes and the exact ordered
-six-gene panel. The manuscript cites the versioned package formally, and the
-package documentation points users back to the article so the software and
-scientific report remain mutually discoverable.
+---
 
-The package is developed as a separate, package-only repository so its release
-history, issue tracking and Bioconductor review remain independent of the
-article's analysis archive. The article release records the package version
-and validation-input hashes rather than maintaining a second, potentially
-stale copy of the package source.
+## Overview
 
-## Citation
+This repository accompanies a study of transient differential transcript usage
+(DTU) during mouse brain development.
 
-If these materials contribute to your work, cite the companion manuscript
-using the repository's `CITATION.cff`. Analyses that use the reusable transient
-DTU decision layer should additionally cite the exact `transientDTU` release.
-The citation metadata will be updated with the article DOI after publication.
+The framework turns stage-specific DTU evidence into bounded
+**diverge–reconverge episodes**. It is model-agnostic and operates after the
+upstream statistical analysis.
 
-The comprehensive manuscript has nine main and 14 supplementary figure
-environments containing 24 displayed graphical assets. The provenance register
-contains 32 audited figure PDFs; eight superseded or redundant graphics remain
-available but are not displayed. The main sequence adds a reproducible
-framework/application overview while retaining the original thesis Figures
-S16, S11, S10 and the upper panel of S9 alongside the temporal, candidate,
-transcript-architecture and locus-level graphics. The old S8 and S9 panels and
-the two original BH displays remain separate supplementary figures, with one
-graphic per environment.
+> **Headline result:** 1,348 candidate episodes across 735 genes, centred on an
+> E15.5 midbrain discontinuity.
 
-For journal review, `submission_main.tex` is a small wrapper around the
-canonical `manuscript.tex`: it enables double spacing and omits the embedded
-supplement without duplicating manuscript text. `supplementary_figures.tex`
-builds the same S1--S14 provenance series as a separately uploadable
-`Additional file 1`. The comprehensive PDF remains the archival reading copy.
-The current verified builds from 24 August 2026 contain 40 pages in
-`manuscript.pdf`, 33 pages in `submission_main.pdf` and 14 pages in
-`supplementary_figures.pdf`.
+<p align="center">
+  <img src="dtu_analysis/figures/figure01_framework_overview.png"
+       alt="Framework overview showing a bounded diverge-reconverge pattern, the post-inference decision layer, and the mouse brain application"
+       width="100%">
+</p>
 
-Both build scripts prefer the bundled `tools/miktex/` toolchain and fall back
-to a system MiKTeX installation when an explicit `-TexBin` is not supplied.
+## Study at a glance
 
-`prepare_journal_figures.py` creates 31 dimension-normalized PDFs in
-`journal_upload_figures/` without modifying the byte-audited source figures.
-`JOURNAL_FIGURE_AUDIT_2026-08-11.csv` records their final dimensions, embedded
-raster resolution, sizes and SHA-256 hashes. The accompanying Markdown audit
-summarizes the result. `BMC_GENOMICS_COVER_LETTER_DRAFT.md` is the current
-journal cover letter with the corresponding-author and intended GitHub
-repository details completed.
+| Component | Result |
+|---|---|
+| Starting set | 12,517 isoforms from 4,577 multi-isoform genes |
+| Primary scan | 1,348 candidate episodes across 735 genes |
+| Dependence-robust sensitivity | 852 episodes across 474 genes |
+| Ranked reciprocal panel | **Scg3, Gpm6a, Ntrk2, Tecr, Armc8, Bin1** |
+| Secondary methylation audit | 11,002 methylation–isoform tests |
+| Prospective methylation candidates | **Gnao1** and **Taok3**, with measurement-sensitive support |
 
-`prepare_release.ps1` stages the combined article and both complete
-companion analyses as one deterministic, checksummed release. The companion
-contents are namespaced as `dtu_analysis/` and `methylation_analysis/` and are
-selected through their existing fail-closed allow-lists. See
-`PUBLIC_RELEASE_MANIFEST.md`. The mixed licence and source-rights confirmation
-records now satisfy the builder's deposit gates while third-party raw inputs
-and archived source objects remain excluded.
+The candidates are hypotheses for independent testing. The analysis does not
+claim that methylation causes the observed transcript changes.
 
-Key machine-readable claim and specification records are copied into
-`tables/`. Complete allow-listed analysis code and derived outputs are retained
-in the companion `dtu_analysis` and `methylation_analysis` namespaces and are
-released with the combined article under one versioned identifier.
+## How the framework works
 
-See `PUBLICATION_READINESS_AUDIT.md` for the audit verdict and
-`SUBMISSION_CHECKLIST.md` for remaining gates. `PARAGRAPH_LEVEL_AUDIT.md`
-records the earlier paragraph-level review and includes an addendum for the
-nine prose units and twelve replacement/new captions introduced by the thesis
-expansion. Superseded manuscript snapshots and dated release candidates are
-not retained; `manuscript.tex` and its three built PDFs are authoritative.
+```mermaid
+flowchart LR
+    A[Stage-specific DTU evidence] --> B[Direction and effect checks]
+    B --> C[Comparison-group agreement]
+    C --> D[Immediate-flank reconvergence]
+    D --> E[Replicate separation]
+    E --> F[Candidate episodes]
+    F --> G[Deterministic gene ranking]
+```
 
-`SENTENCE_LEVEL_PUBLICATION_AUDIT_2026-08-23.md` records the subsequent
-sentence-by-sentence pass, the claim-calibration repairs applied to the live
-source and the residual author, release, rights and reproducibility holds.
+The decision layer requires ordered stages, biological replication, one focal
+group, and at least two comparison groups.
 
-`REVIEWER_RISK_REPAIR_2026-08-10.md` records the subsequent adversarial review,
-literature repair, statistical relabelling, main/supplementary restructuring
-and residual submission risks.
+## Repository guide
 
-Build with:
+| Path | Contents |
+|---|---|
+| [`manuscript.pdf`](manuscript.pdf) | Comprehensive 40-page archival manuscript |
+| [`submission_main.pdf`](submission_main.pdf) | 33-page journal-facing main article |
+| [`supplementary_figures.pdf`](supplementary_figures.pdf) | Separate 14-page supplementary file |
+| [`dtu_analysis/`](dtu_analysis) | DTU framework, scripts, derived data, figures, and audit tables |
+| [`methylation_analysis/`](methylation_analysis) | Methylation association and robustness analyses |
+| [`tables/`](tables) | Machine-readable claim and specification tables |
+| [`figures/`](figures) | Audited manuscript graphics |
+| [`journal_upload_figures/`](journal_upload_figures) | Journal-sized figure derivatives |
+| [`RELEASE_CONTENTS.tsv`](RELEASE_CONTENTS.tsv) | File sizes and SHA-256 hashes for the release |
+| [`CITATION.cff`](CITATION.cff) | Citation metadata for GitHub and reference managers |
+
+## Companion R package
+
+[`transientDTU`](https://github.com/Kohze/transientDTU) implements the reusable
+post-inference decision layer.
+
+Version **0.99.1**:
+
+- accepts generic upstream pairwise-DTU evidence;
+- detects bounded diverge–reconverge episodes;
+- checks replicate separation;
+- annotates reciprocal events;
+- produces deterministic gene rankings.
+
+Its installed regression recipe reproduces all 1,348 archived episodes and the
+ordered six-gene panel.
+
+## Reproduce the manuscript
+
+Clone the repository:
+
+```powershell
+git clone https://github.com/Kohze/developmental-dtu-patterns.git
+cd developmental-dtu-patterns
+```
+
+Build the comprehensive manuscript:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
 ```
 
-Build the journal-facing main article and separate supplementary PDF with:
+Build the journal-facing article and supplementary PDF:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\build_submission.ps1
 ```
 
-After resolving the licence and rights gates, build the combined repository
-deposit with:
+The build scripts use a local MiKTeX installation when no explicit `-TexBin`
+is supplied. The large local MiKTeX toolchain is not stored in Git.
+
+Analysis scripts and environment records are documented in
+[`dtu_analysis/`](dtu_analysis) and
+[`methylation_analysis/`](methylation_analysis). Third-party raw inputs are
+not redistributed.
+
+<details>
+<summary><strong>Release and provenance details</strong></summary>
+
+The release builder selects files through fail-closed allow-lists. It combines
+the manuscript with both analysis namespaces and writes a deterministic ZIP.
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\prepare_release.ps1 `
-  -Destination C:\path\to\combined-paper-release
+python .\release_package.py --config .\release_config.json --destination C:\path\to\combined-paper-release
 ```
+
+The repository includes:
+
+- a mixed MIT and CC BY 4.0 licence;
+- explicit source-rights confirmations;
+- a machine-readable claim ledger;
+- figure and text provenance registers;
+- a SHA-256 release manifest.
+
+Raw reads, third-party source datasets, archived `.RData` and `.rds` objects,
+local caches, and superseded drafts are excluded.
+
+See [`PUBLIC_RELEASE_MANIFEST.md`](PUBLIC_RELEASE_MANIFEST.md) and
+[`RELEASE_STATUS.md`](RELEASE_STATUS.md).
+
+</details>
+
+<details>
+<summary><strong>Manuscript and figure details</strong></summary>
+
+The manuscript contains nine main and 14 supplementary figure environments.
+It displays 24 graphical assets.
+
+The provenance register covers 32 audited figure PDFs. Journal-upload
+derivatives preserve vector content and meet the recorded raster-resolution
+checks.
+
+See [`figure_provenance.csv`](figure_provenance.csv) and
+[`JOURNAL_FIGURE_AUDIT_2026-08-11.md`](JOURNAL_FIGURE_AUDIT_2026-08-11.md).
+
+</details>
+
+## Citation
+
+If this repository contributes to your work, cite the companion manuscript:
+
+> Gounder R, Hamilton R. *A systematic framework for detecting transient
+> developmental transcript-usage patterns identifies an E15.5-centred midbrain
+> candidate landscape.* Version 0.1.0, 2026.
+
+Use GitHub’s **Cite this repository** menu to export the citation from
+[`CITATION.cff`](CITATION.cff).
+
+If you use the reusable decision layer, also cite
+[`transientDTU` 0.99.1](https://github.com/Kohze/transientDTU/releases/tag/v0.99.1).
+
+## Licence
+
+- **Code and build tooling:** [MIT](LICENSE)
+- **Manuscript, figures, tables, and author-created derived data:**
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Third-party source material remains under its original terms.
