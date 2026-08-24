@@ -54,15 +54,15 @@ claim that methylation causes the observed transcript changes.
 
 ## How the framework works
 
-```mermaid
-flowchart LR
-    A[Stage-specific DTU evidence] --> B[Direction and effect checks]
-    B --> C[Comparison-group agreement]
-    C --> D[Immediate-flank reconvergence]
-    D --> E[Replicate separation]
-    E --> F[Candidate episodes]
-    F --> G[Deterministic gene ranking]
-```
+| Step | Decision |
+|---:|---|
+| 1 | Start with stage-specific DTU evidence from an upstream model |
+| 2 | Check effect direction, size, and statistical support |
+| 3 | Require agreement across the comparison groups |
+| 4 | Confirm reconvergence at the immediate temporal flanks |
+| 5 | Check separation using biological replicates |
+| 6 | Retain bounded candidate episodes |
+| 7 | Rank genes deterministically from the retained evidence |
 
 The decision layer requires ordered stages, biological replication, one focal
 group, and at least two comparison groups.
