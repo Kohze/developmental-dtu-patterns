@@ -31,8 +31,8 @@ upstream statistical analysis.
 > E15.5 midbrain discontinuity.
 
 <p align="center">
-  <img src="dtu_analysis/figures/figure01_framework_overview.png"
-       alt="Framework overview showing a bounded diverge-reconverge pattern, the post-inference decision layer, and the mouse brain application"
+  <img src="readme-assets/framework-diverge-reconverge.png"
+       alt="Bounded group-specific diverge-reconverge pattern across ordered stages"
        width="100%">
 </p>
 

@@ -28,6 +28,7 @@
   "include_globs": [
     "figures/*.pdf",
     "journal_upload_figures/*.pdf",
+    "readme-assets/*.png",
     "tables/*.csv"
   ],
   "components": [
