@@ -1,0 +1,44 @@
+{
+  "include_files": [
+    "CITATION.cff",
+    "JOURNAL_FIGURE_AUDIT_2026-08-11.csv",
+    "JOURNAL_FIGURE_AUDIT_2026-08-11.md",
+    "PUBLIC_RELEASE_MANIFEST.md",
+    "PUBLICATION_CLAIM_LEDGER_2026-08-10.csv",
+    "README.md",
+    "build.ps1",
+    "build_submission.ps1",
+    "compose_revised_figure03.py",
+    "figure_provenance.csv",
+    "manuscript.pdf",
+    "manuscript.tex",
+    "references_dtu_audit.bib",
+    "references_methylation_audit.bib",
+    "release_package.py",
+    "submission_main.pdf",
+    "submission_main.tex",
+    "supplementary_figures.pdf",
+    "supplementary_figures.tex",
+    "supplementary_table_s1_rnaseq_accessions.csv",
+    "supplementary_table_s2_forebrain_hindbrain_audit.csv",
+    "supplementary_table_s3_encode_accessions.csv",
+    "text_provenance.csv"
+  ],
+  "include_globs": [
+    "figures/*.pdf",
+    "journal_upload_figures/*.pdf",
+    "tables/*.csv"
+  ],
+  "components": [
+    {
+      "name": "dtu_analysis",
+      "source": "dtu_analysis",
+      "config": "release_config.json"
+    },
+    {
+      "name": "methylation_analysis",
+      "source": "methylation_analysis",
+      "config": "release_config.json"
+    }
+  ]
+}

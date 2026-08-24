@@ -1,0 +1,3 @@
+"method","pairwise_adjustment","within_gene_aggregation","across_gene_adjustment","replicate_separated_episodes","genes","single_stage_e15_5_episodes","non_e15_5_episodes","reciprocal_exchange_episodes","reciprocal_exchange_genes","leading_six_genes"
+"primary","Benjamini-Hochberg over 300408 pairwise tests","Simes over all pairwise tests per gene","Benjamini-Hochberg over 4577 genes",1348,735,1203,145,1071,490,"Scg3;Gpm6a;Ntrk2;Tecr;Armc8;Bin1"
+"arbitrary-dependence sensitivity","Benjamini-Yekutieli over 300408 pairwise tests","Bonferroni minimum-p over all pairwise tests per gene","Benjamini-Yekutieli over 4577 genes",852,474,817,35,681,314,"Scg3;Gpm6a;Ntrk2;Tecr;Armc8;Bin1"

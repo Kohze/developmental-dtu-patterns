@@ -1,0 +1,14 @@
+.miktex/
+.miktex-tmp/
+work/
+release/
+*.zip
+manuscript.aux
+manuscript.bbl
+manuscript.blg
+manuscript.log
+manuscript.out
+manuscript.synctex.gz
+Rplots.pdf
+Thumbs.db
+.DS_Store

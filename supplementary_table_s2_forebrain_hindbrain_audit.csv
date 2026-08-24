@@ -1,0 +1,22 @@
+analysis,metric,value,unit,interpretation
+DTU_call_sets,Forebrain_genes,2268,genes,Passed archived thesis criteria in at least one of 28 pairwise stage comparisons
+DTU_call_sets,Hindbrain_genes,2258,genes,Passed archived thesis criteria in at least one of 28 pairwise stage comparisons
+DTU_call_sets,Midbrain_genes,2393,genes,Passed archived thesis criteria in at least one of 28 pairwise stage comparisons
+DTU_call_sets,Union,2749,genes,Exactly reproduces the thesis UpSet total
+DTU_call_sets,All_three_regions,1902,genes,Exactly reproduces the largest thesis UpSet intersection
+DTU_call_sets,Forebrain_and_hindbrain_only,349,genes,Exactly reproduces the thesis UpSet intersection
+DTU_call_sets,Midbrain_only,474,genes,Exactly reproduces the thesis UpSet intersection
+DTU_call_sets,Forebrain_and_midbrain_only,14,genes,Exactly reproduces the thesis UpSet intersection
+DTU_call_sets,Hindbrain_only,4,genes,Exactly reproduces the thesis UpSet intersection
+DTU_call_sets,Forebrain_only,3,genes,Exactly reproduces the thesis UpSet intersection
+DTU_call_sets,Hindbrain_and_midbrain_only,3,genes,Exactly reproduces the thesis UpSet intersection
+Forebrain_hindbrain_overlap,Shared_genes,2251,genes,All-three plus forebrain-hindbrain-only intersections
+Forebrain_hindbrain_overlap,Jaccard_similarity,0.9895,proportion,Unusually high call-set similarity
+Expression_matrix_audit,Shared_isoforms,28931,isoforms,Identifiers present in all three raw archived expression matrices
+Expression_matrix_audit,Forebrain_hindbrain_corresponding_columns_mean_Spearman,0.9969,rho,Every corresponding stage-replicate column was the best cross-region match
+Expression_matrix_audit,Forebrain_within_stage_replicate_mean_Spearman,0.9495,rho,Mean across eight within-stage replicate pairs
+Expression_matrix_audit,Hindbrain_within_stage_replicate_mean_Spearman,0.9492,rho,Mean across eight within-stage replicate pairs
+Expression_matrix_audit,Forebrain_midbrain_corresponding_columns_mean_Spearman,0.9140,rho,Comparator cross-region correlation
+Expression_matrix_audit,Hindbrain_midbrain_corresponding_columns_mean_Spearman,0.9142,rho,Comparator cross-region correlation
+Expression_matrix_audit,Forebrain_hindbrain_exact_matrix_identity,FALSE,logical,Dimensions and values differ so simple file duplication was not detected
+Traceability,Accession_to_matrix_mapping_recoverable,FALSE,logical,Archived design matrices contain generic stage-replicate labels only

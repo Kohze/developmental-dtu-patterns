@@ -1,0 +1,23 @@
+{
+  "rights_gate_file": "SOURCE_RIGHTS_CONFIRMED.md",
+  "include_files": [
+    ".gitignore",
+    "ANTAGONISTIC_AUDIT.md",
+    "CITATION.cff",
+    "DTU_VALIDATION_PREREGISTRATION_DRAFT.md",
+    "DTU_VALIDATION_POWER_GUIDE.md",
+    "DTU_VALIDATION_DECISION_RECORD_TEMPLATE.md",
+    "ENVIRONMENT.md",
+    "release_config.json"
+  ],
+  "include_globs": [
+    "analysis/*.R",
+    "analysis/*.py",
+    "data/*.csv",
+    "data/*.txt",
+    "figures/figure*.pdf",
+    "figures/figure*.png",
+    "figures/thesis*.pdf",
+    "tables/*.csv"
+  ]
+}

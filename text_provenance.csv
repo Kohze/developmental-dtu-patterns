@@ -1,0 +1,11 @@
+manuscript_section,primary_source,adaptation
+Abstract,"dtu_analysis; methylation_analysis","integrated around calibrated positive and negative results"
+Introduction,"both audited papers and their cited literature","reframed around temporal, compositional and multiplicity hazards"
+DTU methods,dtu_analysis,"condensed complete-family transient scan and counter-audits"
+Software implementation,"transientDTU 0.99.1 and its paper-output regression","package interface and exact equivalence to the archived episode table and ordered six-gene panel"
+Methylation methods,methylation_analysis,"condensed fixed-family reconstruction, exhaustive stage-label randomisation under an exchangeability null, and interpretive rules"
+DTU results,dtu_analysis,"audited counts and main findings retained"
+Methylation results,methylation_analysis,"131-to-3-to-0 inferential discontinuity retained"
+Archived graphical record,"post-viva thesis Chapters 4 and 5","seventeen byte-identical thesis-native graphics retained; thesis Figures S16, S11, S10 and the upper panel of S9 are promoted into the main sequence, while the old S8 and S9 panels and all other appendix assets are presented as individual supplementary figures with captions separating descriptive provenance from superseded inference"
+Discussion,"both audited papers","integrated evidence hierarchy; legacy chromatin/motif/shape convergence removed as independent support"
+Data and code availability,"both companion reproducibility packages and transientDTU 0.99.1","article and package repositories named; persistent article DOI and public package release still required"

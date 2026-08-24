@@ -1,0 +1,17 @@
+.miktex-tmp/
+work/
+release/
+__pycache__/
+*.zip
+*.pyc
+manuscript.aux
+manuscript.bbl
+manuscript.blg
+manuscript.log
+manuscript.out
+results/contact_sheet.png
+results/page-*.png
+results/*_stdout.txt
+results/*_stderr.txt
+Thumbs.db
+.DS_Store

@@ -1,0 +1,26 @@
+{
+  "rights_gate_file": "SOURCE_RIGHTS_CONFIRMED.md",
+  "include_files": [
+    ".gitignore",
+    "CITATION.cff",
+    "ENVIRONMENT.md",
+    "METHYLATION_VALIDATION_PREREGISTRATION_DRAFT.md",
+    "input_provenance.csv",
+    "create_validation_package.py",
+    "inspect_archived_inputs.R",
+    "make_figures.py",
+    "make_robustness_figures.py",
+    "reconstruct_replicates.R",
+    "replicate_robustness.py",
+    "verify_transformed_permutations.py",
+    "requirements.txt",
+    "source_manifest.csv"
+  ],
+  "include_globs": [
+    "figures/figure*.pdf",
+    "figures/figure*.png",
+    "figures/thesis*.pdf",
+    "results/*.csv",
+    "results/reconstruction_session_info.txt"
+  ]
+}

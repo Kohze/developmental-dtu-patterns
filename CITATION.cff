@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and archived release."
+title: "A systematic framework for detecting transient developmental transcript-usage patterns identifies an E15.5-centred midbrain candidate landscape"
+type: software
+authors:
+  - family-names: Gounder
+    given-names: Robin
+  - family-names: Hamilton
+    given-names: Russell
+version: 0.1.0
+repository-code: "https://github.com/Kohze/developmental-dtu-patterns"
+preferred-citation:
+  type: article
+  title: "A systematic framework for detecting transient developmental transcript-usage patterns identifies an E15.5-centred midbrain candidate landscape"
+  authors:
+    - family-names: Gounder
+      given-names: Robin
+    - family-names: Hamilton
+      given-names: Russell
+  year: 2026
+references:
+  - type: software
+    title: "transientDTU: Detect Transient Diverge-Reconverge Transcript Usage"
+    authors:
+      - family-names: Gounder
+        given-names: Robin
+      - family-names: Hamilton
+        given-names: Russell
+    version: 0.99.1
+    repository-code: "https://github.com/Kohze/transientDTU"

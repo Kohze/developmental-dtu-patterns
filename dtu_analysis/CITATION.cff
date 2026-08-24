@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and archived release."
+title: "Evidence-calibrated transient-divergence mapping resolves an E15.5 midbrain isoform discontinuity"
+type: software
+authors:
+  - family-names: Gounder
+    given-names: Robin
+  - family-names: Hamilton
+    given-names: Russell
+version: 0.1.0

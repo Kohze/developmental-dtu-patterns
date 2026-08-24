@@ -1,0 +1,14 @@
+output,source,role,provenance
+replicate_level_methylation.csv,methylation_subset_grl.RData + forebrain_isoforms_data_with_dmr.rds + midbrain_isoforms_data_with_dmr.rds,32 sample-level WGBS reconstructions across archived regions,archived thesis objects reprocessed by reconstruct_replicates.R
+replicate_level_isoform_usage.csv,foreBrain.RData + isoform_final.RData,replicate-level RepIF and transcript expression,archived thesis objects reprocessed by reconstruct_replicates.R
+replicate_robustness_all.csv,methylation_expression_correlation_data.csv + reconstructed replicate tables,complete 11002-test parametric audit and exhaustive stage-label randomisation sensitivity analysis under exchangeability,new analysis
+analysis_specification_table.csv,replicate_robustness_all.csv,ten-specification inferential ledger including raw detrended and first-difference randomisation calibration,create_validation_package.py
+candidate_evidence_ledger.csv,replicate_robustness_all.csv,frozen Gnao1 and Taok3 evidence limits decisive tests and falsifiers,create_validation_package.py
+METHYLATION_VALIDATION_PREREGISTRATION_DRAFT.md,replicate_robustness_all.csv + candidate evidence ledger,author-review bidirectional-editing protocol and failure rules,create_validation_package.py
+transformed_exact_independent_verification.csv,replicate-level methylation and isoform-usage tables + replicate_robustness_all.csv,independent exhaustive stage-randomisation check for every parametric transformed selection; legacy filename retained,verify_transformed_permutations.py
+replicate_robustness_archived_hits.csv,replicate_robustness_all.csv + replicate tables,targeted stage-randomisation and resampling diagnostics,new analysis
+Figure 1,figures/thesis_methylation_expression_correlation.pdf,relative-isoform versus absolute-expression correlation display,unchanged figure from author doctoral thesis
+Figure 2,replicate_robustness_all.csv,discovery discontinuity and specification sensitivity,make_robustness_figures.py
+Figure 3,replicate-level methylation and usage tables,Gnao1 relative-versus-absolute decomposition,make_robustness_figures.py
+Figure 4,replicate tables + targeted diagnostics,Taok3 profiles and sensitivity ledger,make_robustness_figures.py
+Figure 5,targeted diagnostics,archived-hit attrition temporal sensitivity and reliability,make_robustness_figures.py
