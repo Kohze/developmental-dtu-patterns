@@ -1,0 +1,193 @@
+"gene_name","isoform_id","direction","region_group","stage","isoform_fraction"
+"Armc8","NM_001166138","lower","Forebrain/hindbrain mean","10.5",0.65275
+"Armc8","NM_001166138","lower","Forebrain/hindbrain mean","11.5",0.68955
+"Armc8","NM_001166138","lower","Forebrain/hindbrain mean","12.5",0.70805
+"Armc8","NM_001166138","lower","Forebrain/hindbrain mean","13.5",0.81735
+"Armc8","NM_001166138","lower","Forebrain/hindbrain mean","14.5",0.83665
+"Armc8","NM_001166138","lower","Forebrain/hindbrain mean","15.5",0.80205
+"Armc8","NM_001166138","lower","Forebrain/hindbrain mean","16.5",0.8031
+"Armc8","NM_001166138","lower","Forebrain/hindbrain mean","0",0.84345
+"Armc8","NM_001166138","lower","Midbrain","10.5",0.63255
+"Armc8","NM_001166138","lower","Midbrain","11.5",0.6874
+"Armc8","NM_001166138","lower","Midbrain","12.5",0.71655
+"Armc8","NM_001166138","lower","Midbrain","13.5",0.7957
+"Armc8","NM_001166138","lower","Midbrain","14.5",0.8507
+"Armc8","NM_001166138","lower","Midbrain","15.5",0.30285
+"Armc8","NM_001166138","lower","Midbrain","16.5",0.8174
+"Armc8","NM_001166138","lower","Midbrain","0",0.84895
+"Armc8","NM_028768","higher","Forebrain/hindbrain mean","10.5",0.34725
+"Armc8","NM_028768","higher","Forebrain/hindbrain mean","11.5",0.31045
+"Armc8","NM_028768","higher","Forebrain/hindbrain mean","12.5",0.29195
+"Armc8","NM_028768","higher","Forebrain/hindbrain mean","13.5",0.18265
+"Armc8","NM_028768","higher","Forebrain/hindbrain mean","14.5",0.16335
+"Armc8","NM_028768","higher","Forebrain/hindbrain mean","15.5",0.19795
+"Armc8","NM_028768","higher","Forebrain/hindbrain mean","16.5",0.1969
+"Armc8","NM_028768","higher","Forebrain/hindbrain mean","0",0.15655
+"Armc8","NM_028768","higher","Midbrain","10.5",0.36745
+"Armc8","NM_028768","higher","Midbrain","11.5",0.3126
+"Armc8","NM_028768","higher","Midbrain","12.5",0.28345
+"Armc8","NM_028768","higher","Midbrain","13.5",0.2043
+"Armc8","NM_028768","higher","Midbrain","14.5",0.1493
+"Armc8","NM_028768","higher","Midbrain","15.5",0.69715
+"Armc8","NM_028768","higher","Midbrain","16.5",0.1826
+"Armc8","NM_028768","higher","Midbrain","0",0.15105
+"Bin1","NM_001083334","higher","Forebrain/hindbrain mean","10.5",0.7883
+"Bin1","NM_001083334","higher","Forebrain/hindbrain mean","11.5",0.7062
+"Bin1","NM_001083334","higher","Forebrain/hindbrain mean","12.5",0.6187
+"Bin1","NM_001083334","higher","Forebrain/hindbrain mean","13.5",0.326225
+"Bin1","NM_001083334","higher","Forebrain/hindbrain mean","14.5",0.20985
+"Bin1","NM_001083334","higher","Forebrain/hindbrain mean","15.5",0.2562
+"Bin1","NM_001083334","higher","Forebrain/hindbrain mean","16.5",0.2597
+"Bin1","NM_001083334","higher","Forebrain/hindbrain mean","0",0.2221
+"Bin1","NM_001083334","higher","Midbrain","10.5",0.77995
+"Bin1","NM_001083334","higher","Midbrain","11.5",0.718
+"Bin1","NM_001083334","higher","Midbrain","12.5",0.59705
+"Bin1","NM_001083334","higher","Midbrain","13.5",0.33295
+"Bin1","NM_001083334","higher","Midbrain","14.5",0.2776
+"Bin1","NM_001083334","higher","Midbrain","15.5",0.99085
+"Bin1","NM_001083334","higher","Midbrain","16.5",0.16615
+"Bin1","NM_001083334","higher","Midbrain","0",0.15535
+"Bin1","NM_009668","lower","Forebrain/hindbrain mean","10.5",0.2117
+"Bin1","NM_009668","lower","Forebrain/hindbrain mean","11.5",0.2938
+"Bin1","NM_009668","lower","Forebrain/hindbrain mean","12.5",0.3813
+"Bin1","NM_009668","lower","Forebrain/hindbrain mean","13.5",0.673775
+"Bin1","NM_009668","lower","Forebrain/hindbrain mean","14.5",0.79015
+"Bin1","NM_009668","lower","Forebrain/hindbrain mean","15.5",0.7438
+"Bin1","NM_009668","lower","Forebrain/hindbrain mean","16.5",0.7403
+"Bin1","NM_009668","lower","Forebrain/hindbrain mean","0",0.7779
+"Bin1","NM_009668","lower","Midbrain","10.5",0.22005
+"Bin1","NM_009668","lower","Midbrain","11.5",0.282
+"Bin1","NM_009668","lower","Midbrain","12.5",0.40295
+"Bin1","NM_009668","lower","Midbrain","13.5",0.66705
+"Bin1","NM_009668","lower","Midbrain","14.5",0.7224
+"Bin1","NM_009668","lower","Midbrain","15.5",0.00915
+"Bin1","NM_009668","lower","Midbrain","16.5",0.83385
+"Bin1","NM_009668","lower","Midbrain","0",0.84465
+"Gpm6a","NM_001253754","higher","Forebrain/hindbrain mean","10.5",0.762225
+"Gpm6a","NM_001253754","higher","Forebrain/hindbrain mean","11.5",0.62955
+"Gpm6a","NM_001253754","higher","Forebrain/hindbrain mean","12.5",0.505225
+"Gpm6a","NM_001253754","higher","Forebrain/hindbrain mean","13.5",0.4443
+"Gpm6a","NM_001253754","higher","Forebrain/hindbrain mean","14.5",0.4314
+"Gpm6a","NM_001253754","higher","Forebrain/hindbrain mean","15.5",0.425
+"Gpm6a","NM_001253754","higher","Forebrain/hindbrain mean","16.5",0.4466
+"Gpm6a","NM_001253754","higher","Forebrain/hindbrain mean","0",0.53135
+"Gpm6a","NM_001253754","higher","Midbrain","10.5",0.72375
+"Gpm6a","NM_001253754","higher","Midbrain","11.5",0.63645
+"Gpm6a","NM_001253754","higher","Midbrain","12.5",0.5607
+"Gpm6a","NM_001253754","higher","Midbrain","13.5",0.41095
+"Gpm6a","NM_001253754","higher","Midbrain","14.5",0.38185
+"Gpm6a","NM_001253754","higher","Midbrain","15.5",0.9969
+"Gpm6a","NM_001253754","higher","Midbrain","16.5",0.37555
+"Gpm6a","NM_001253754","higher","Midbrain","0",0.4123
+"Gpm6a","NM_153581","lower","Forebrain/hindbrain mean","10.5",0.237775
+"Gpm6a","NM_153581","lower","Forebrain/hindbrain mean","11.5",0.37045
+"Gpm6a","NM_153581","lower","Forebrain/hindbrain mean","12.5",0.4926
+"Gpm6a","NM_153581","lower","Forebrain/hindbrain mean","13.5",0.55535
+"Gpm6a","NM_153581","lower","Forebrain/hindbrain mean","14.5",0.567575
+"Gpm6a","NM_153581","lower","Forebrain/hindbrain mean","15.5",0.5746
+"Gpm6a","NM_153581","lower","Forebrain/hindbrain mean","16.5",0.553
+"Gpm6a","NM_153581","lower","Forebrain/hindbrain mean","0",0.46745
+"Gpm6a","NM_153581","lower","Midbrain","10.5",0.27515
+"Gpm6a","NM_153581","lower","Midbrain","11.5",0.36305
+"Gpm6a","NM_153581","lower","Midbrain","12.5",0.4383
+"Gpm6a","NM_153581","lower","Midbrain","13.5",0.5886
+"Gpm6a","NM_153581","lower","Midbrain","14.5",0.61765
+"Gpm6a","NM_153581","lower","Midbrain","15.5",0.0031
+"Gpm6a","NM_153581","lower","Midbrain","16.5",0.6233
+"Gpm6a","NM_153581","lower","Midbrain","0",0.58625
+"Ntrk2","NM_001025074","lower","Forebrain/hindbrain mean","10.5",0.2021
+"Ntrk2","NM_001025074","lower","Forebrain/hindbrain mean","11.5",0.15785
+"Ntrk2","NM_001025074","lower","Forebrain/hindbrain mean","12.5",0.29
+"Ntrk2","NM_001025074","lower","Forebrain/hindbrain mean","13.5",0.5338
+"Ntrk2","NM_001025074","lower","Forebrain/hindbrain mean","14.5",0.57985
+"Ntrk2","NM_001025074","lower","Forebrain/hindbrain mean","15.5",0.54905
+"Ntrk2","NM_001025074","lower","Forebrain/hindbrain mean","16.5",0.52585
+"Ntrk2","NM_001025074","lower","Forebrain/hindbrain mean","0",0.4293
+"Ntrk2","NM_001025074","lower","Midbrain","10.5",0.1117
+"Ntrk2","NM_001025074","lower","Midbrain","11.5",0.10645
+"Ntrk2","NM_001025074","lower","Midbrain","12.5",0.20535
+"Ntrk2","NM_001025074","lower","Midbrain","13.5",0.48755
+"Ntrk2","NM_001025074","lower","Midbrain","14.5",0.56685
+"Ntrk2","NM_001025074","lower","Midbrain","15.5",0.0563
+"Ntrk2","NM_001025074","lower","Midbrain","16.5",0.6202
+"Ntrk2","NM_001025074","lower","Midbrain","0",0.51815
+"Ntrk2","NM_008745","higher","Forebrain/hindbrain mean","10.5",0.7979
+"Ntrk2","NM_008745","higher","Forebrain/hindbrain mean","11.5",0.84215
+"Ntrk2","NM_008745","higher","Forebrain/hindbrain mean","12.5",0.71
+"Ntrk2","NM_008745","higher","Forebrain/hindbrain mean","13.5",0.4662
+"Ntrk2","NM_008745","higher","Forebrain/hindbrain mean","14.5",0.42015
+"Ntrk2","NM_008745","higher","Forebrain/hindbrain mean","15.5",0.45095
+"Ntrk2","NM_008745","higher","Forebrain/hindbrain mean","16.5",0.47415
+"Ntrk2","NM_008745","higher","Forebrain/hindbrain mean","0",0.5707
+"Ntrk2","NM_008745","higher","Midbrain","10.5",0.8883
+"Ntrk2","NM_008745","higher","Midbrain","11.5",0.89355
+"Ntrk2","NM_008745","higher","Midbrain","12.5",0.79465
+"Ntrk2","NM_008745","higher","Midbrain","13.5",0.51245
+"Ntrk2","NM_008745","higher","Midbrain","14.5",0.43315
+"Ntrk2","NM_008745","higher","Midbrain","15.5",0.9437
+"Ntrk2","NM_008745","higher","Midbrain","16.5",0.3798
+"Ntrk2","NM_008745","higher","Midbrain","0",0.48185
+"Scg3","NM_001164790","lower","Forebrain/hindbrain mean","10.5",0.7032
+"Scg3","NM_001164790","lower","Forebrain/hindbrain mean","11.5",0.73245
+"Scg3","NM_001164790","lower","Forebrain/hindbrain mean","12.5",0.66065
+"Scg3","NM_001164790","lower","Forebrain/hindbrain mean","13.5",0.66345
+"Scg3","NM_001164790","lower","Forebrain/hindbrain mean","14.5",0.58975
+"Scg3","NM_001164790","lower","Forebrain/hindbrain mean","15.5",0.605825
+"Scg3","NM_001164790","lower","Forebrain/hindbrain mean","16.5",0.56955
+"Scg3","NM_001164790","lower","Forebrain/hindbrain mean","0",0.648475
+"Scg3","NM_001164790","lower","Midbrain","10.5",0.6746
+"Scg3","NM_001164790","lower","Midbrain","11.5",0.685
+"Scg3","NM_001164790","lower","Midbrain","12.5",0.67875
+"Scg3","NM_001164790","lower","Midbrain","13.5",0.6967
+"Scg3","NM_001164790","lower","Midbrain","14.5",0.6053
+"Scg3","NM_001164790","lower","Midbrain","15.5",0
+"Scg3","NM_001164790","lower","Midbrain","16.5",0.63045
+"Scg3","NM_001164790","lower","Midbrain","0",0.6444
+"Scg3","NM_009130","higher","Forebrain/hindbrain mean","10.5",0.2968
+"Scg3","NM_009130","higher","Forebrain/hindbrain mean","11.5",0.26755
+"Scg3","NM_009130","higher","Forebrain/hindbrain mean","12.5",0.33935
+"Scg3","NM_009130","higher","Forebrain/hindbrain mean","13.5",0.33655
+"Scg3","NM_009130","higher","Forebrain/hindbrain mean","14.5",0.41025
+"Scg3","NM_009130","higher","Forebrain/hindbrain mean","15.5",0.394175
+"Scg3","NM_009130","higher","Forebrain/hindbrain mean","16.5",0.43045
+"Scg3","NM_009130","higher","Forebrain/hindbrain mean","0",0.351525
+"Scg3","NM_009130","higher","Midbrain","10.5",0.3254
+"Scg3","NM_009130","higher","Midbrain","11.5",0.315
+"Scg3","NM_009130","higher","Midbrain","12.5",0.32125
+"Scg3","NM_009130","higher","Midbrain","13.5",0.3033
+"Scg3","NM_009130","higher","Midbrain","14.5",0.3947
+"Scg3","NM_009130","higher","Midbrain","15.5",1
+"Scg3","NM_009130","higher","Midbrain","16.5",0.36955
+"Scg3","NM_009130","higher","Midbrain","0",0.3556
+"Tecr","NM_027179","lower","Forebrain/hindbrain mean","10.5",0.3264
+"Tecr","NM_027179","lower","Forebrain/hindbrain mean","11.5",0.4067
+"Tecr","NM_027179","lower","Forebrain/hindbrain mean","12.5",0.5272
+"Tecr","NM_027179","lower","Forebrain/hindbrain mean","13.5",0.724
+"Tecr","NM_027179","lower","Forebrain/hindbrain mean","14.5",0.8217
+"Tecr","NM_027179","lower","Forebrain/hindbrain mean","15.5",0.7989
+"Tecr","NM_027179","lower","Forebrain/hindbrain mean","16.5",0.8222
+"Tecr","NM_027179","lower","Forebrain/hindbrain mean","0",0.77745
+"Tecr","NM_027179","lower","Midbrain","10.5",0.26465
+"Tecr","NM_027179","lower","Midbrain","11.5",0.3537
+"Tecr","NM_027179","lower","Midbrain","12.5",0.4356
+"Tecr","NM_027179","lower","Midbrain","13.5",0.62475
+"Tecr","NM_027179","lower","Midbrain","14.5",0.78335
+"Tecr","NM_027179","lower","Midbrain","15.5",0.28715
+"Tecr","NM_027179","lower","Midbrain","16.5",0.8304
+"Tecr","NM_027179","lower","Midbrain","0",0.8356
+"Tecr","NM_134118","higher","Forebrain/hindbrain mean","10.5",0.6736
+"Tecr","NM_134118","higher","Forebrain/hindbrain mean","11.5",0.5933
+"Tecr","NM_134118","higher","Forebrain/hindbrain mean","12.5",0.4728
+"Tecr","NM_134118","higher","Forebrain/hindbrain mean","13.5",0.276
+"Tecr","NM_134118","higher","Forebrain/hindbrain mean","14.5",0.1783
+"Tecr","NM_134118","higher","Forebrain/hindbrain mean","15.5",0.2011
+"Tecr","NM_134118","higher","Forebrain/hindbrain mean","16.5",0.1778
+"Tecr","NM_134118","higher","Forebrain/hindbrain mean","0",0.22255
+"Tecr","NM_134118","higher","Midbrain","10.5",0.73535
+"Tecr","NM_134118","higher","Midbrain","11.5",0.6463
+"Tecr","NM_134118","higher","Midbrain","12.5",0.5644
+"Tecr","NM_134118","higher","Midbrain","13.5",0.37525
+"Tecr","NM_134118","higher","Midbrain","14.5",0.21665
+"Tecr","NM_134118","higher","Midbrain","15.5",0.71285
+"Tecr","NM_134118","higher","Midbrain","16.5",0.1696
+"Tecr","NM_134118","higher","Midbrain","0",0.1644

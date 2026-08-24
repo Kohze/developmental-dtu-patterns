@@ -295,7 +295,7 @@ def main() -> None:
     shutil.copy2(config_path, destination / "release_config.json")
     manifest = write_manifest(destination)
 
-    archive_path = destination.with_suffix(".zip")
+    archive_path = destination.parent / f"{destination.name}.zip"
     if archive_path.exists():
         raise FileExistsError(f"Release archive already exists: {archive_path}")
     if not args.skip_zip:

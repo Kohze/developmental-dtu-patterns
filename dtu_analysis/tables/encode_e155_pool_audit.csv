@@ -1,0 +1,7 @@
+region,biological_replicate,experiment_accession,biosample_accession,portal_description,pool_size_embryos,common_cross_region_origin_identifier,archived_matrix_column_linkage,source_url,portal_review_date
+Forebrain,1,ENCSR752RGN,ENCBS811RMD,"Forebrain from 78 embryonic 15.5 day mice",78,not_recovered,not_recovered,https://www.encodeproject.org/biosamples/ENCBS811RMD/,2026-07-30
+Forebrain,2,ENCSR752RGN,ENCBS841GER,"Forebrain from 62 embryonic 15.5 day mice",62,not_recovered,not_recovered,https://www.encodeproject.org/biosamples/ENCBS841GER/,2026-07-30
+Midbrain,1,ENCSR557RMA,ENCBS190ETJ,"Midbrain from 78 embryonic 15.5 day mice",78,not_recovered,not_recovered,https://www.encodeproject.org/biosamples/ENCBS190ETJ/,2026-07-30
+Midbrain,2,ENCSR557RMA,ENCBS381PEJ,"Midbrain from 62 embryonic 15.5 day mice",62,not_recovered,not_recovered,https://www.encodeproject.org/biosamples/ENCBS381PEJ/,2026-07-30
+Hindbrain,1,ENCSR401BSG,ENCBS958AHU,"Hindbrain from 78 embryonic 15.5 day mice",78,not_recovered,not_recovered,https://www.encodeproject.org/biosamples/ENCBS958AHU/,2026-07-30
+Hindbrain,2,ENCSR401BSG,ENCBS948UKU,"Hindbrain from 62 embryonic 15.5 day mice",62,not_recovered,not_recovered,https://www.encodeproject.org/biosamples/ENCBS948UKU/,2026-07-30

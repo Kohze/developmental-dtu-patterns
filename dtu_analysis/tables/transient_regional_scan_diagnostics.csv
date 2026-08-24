@@ -1,0 +1,17 @@
+"metric","value"
+"common_isoforms_before_filtering",28931
+"isoforms_after_expression_and_multi_isoform_filtering",12517
+"multi_isoform_genes_tested",4577
+"samples",48
+"region_stage_cells",24
+"pairwise_tests",300408
+"nonfinite_pairwise_p_values_replaced_by_bh_as_one",1848
+"statistical_episodes_before_replicate_check",1350
+"episodes_with_incomplete_replicate_check_excluded",2
+"primary_episodes",1348
+"primary_episode_genes",735
+"replicate_consistent_episodes",1348
+"reciprocal_exchange_episodes",1071
+"replicate_consistent_reciprocal_genes",490
+"single_stage_e15_5_episodes",1203
+"non_e15_5_episodes",145

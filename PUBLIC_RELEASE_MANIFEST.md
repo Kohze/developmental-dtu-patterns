@@ -1,10 +1,8 @@
 # Combined public-release manifest
 
 The public repository is
-<https://github.com/Kohze/developmental-dtu-patterns>. Its prepublication Git
-history is subject to the exclusions in `RELEASE_STATUS.md`; the final archive
-will contain one versioned release for the combined article after its licence
-and source-rights gates are cleared. Its top level contains the canonical manuscript, journal-facing main
+<https://github.com/Kohze/developmental-dtu-patterns>, with one versioned
+release for the combined article. Its top level contains the canonical manuscript, journal-facing main
 article, separate supplementary PDF, figure assets, machine-readable claim
 ledger and provenance tables. The complete companion analyses are retained in
 two explicit namespaces:
@@ -27,11 +25,11 @@ are sorted and assigned a fixed timestamp for deterministic rebuilds.
 
 The release excludes archived `.RData` and `.rds` objects, raw reads, local
 MiKTeX trees, caches, work directories, build logs, submission-planning files
-and superseded manuscript drafts. The retained analysis outputs can be
-released only after the authors resolve the rights status of the archived
-inputs. If those objects cannot be redistributed, the deposit must retain the
-recorded checksums and document the authorised-input route used by the
-companion scripts.
+and superseded manuscript drafts. The authors have confirmed release rights
+for the retained author-created derived outputs. Third-party raw inputs and
+archived source objects remain excluded; the deposit retains provenance
+records and documents the authorised-input route used by the companion
+scripts.
 
 Build from this directory with:
 
@@ -42,6 +40,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\prepare_release.ps1 `
 
 The command fails closed unless a top-level `LICENSE` and each companion
 package's `LICENSE` and `SOURCE_RIGHTS_CONFIRMED.md` are present. The
-`-AllowMissingLicense` and `-AllowUnconfirmedSourceRights` switches are only
+`-AllowMissingLicense` and `-AllowUnconfirmedSourceRights` switches remain only
 for local structural audits; any output produced with either switch is not
 depositable.

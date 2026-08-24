@@ -1,0 +1,12 @@
+"metric","value"
+"Union background genes",21542
+"Intersection background genes",20370
+"Common background isoforms used for QC",28931
+"Primary DTU union",2749
+"Primary shared core",1902
+"Primary midbrain-only set",474
+"Triple-overlap fold over independence",72.023275633424
+"Smallest comparative midbrain-only GO FDR",0.326383224847312
+"Adjusted shared-core GO terms at FDR < 0.05",8
+"PCA PC1 variance percent",39.6490490340325
+"PCA PC2 variance percent",9.77738302294777

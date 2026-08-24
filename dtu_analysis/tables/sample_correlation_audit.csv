@@ -1,0 +1,121 @@
+"comparison","region_pair","stage","replicate","pearson_log1p"
+"Within-region biological replicates","Forebrain","E10.5","1 versus 2",0.978995675442381
+"Within-region biological replicates","Forebrain","E11.5","1 versus 2",0.982199067740752
+"Within-region biological replicates","Forebrain","E12.5","1 versus 2",0.978616420174599
+"Within-region biological replicates","Forebrain","E13.5","1 versus 2",0.979112132663643
+"Within-region biological replicates","Forebrain","E14.5","1 versus 2",0.976804106539721
+"Within-region biological replicates","Forebrain","E15.5","1 versus 2",0.97706446353293
+"Within-region biological replicates","Forebrain","E16.5","1 versus 2",0.981504685890535
+"Within-region biological replicates","Forebrain","P0","1 versus 2",0.984236547920009
+"Within-region biological replicates","Hindbrain","E10.5","1 versus 2",0.978670303607812
+"Within-region biological replicates","Hindbrain","E11.5","1 versus 2",0.982175787212793
+"Within-region biological replicates","Hindbrain","E12.5","1 versus 2",0.978533452727334
+"Within-region biological replicates","Hindbrain","E13.5","1 versus 2",0.975807501593621
+"Within-region biological replicates","Hindbrain","E14.5","1 versus 2",0.977013927316291
+"Within-region biological replicates","Hindbrain","E15.5","1 versus 2",0.978348569609812
+"Within-region biological replicates","Hindbrain","E16.5","1 versus 2",0.980073606120899
+"Within-region biological replicates","Hindbrain","P0","1 versus 2",0.984244282193191
+"Within-region biological replicates","Midbrain","E10.5","1 versus 2",0.985200024746361
+"Within-region biological replicates","Midbrain","E11.5","1 versus 2",0.982991418729945
+"Within-region biological replicates","Midbrain","E12.5","1 versus 2",0.980524143857132
+"Within-region biological replicates","Midbrain","E13.5","1 versus 2",0.976996868278139
+"Within-region biological replicates","Midbrain","E14.5","1 versus 2",0.970256831182681
+"Within-region biological replicates","Midbrain","E15.5","1 versus 2",0.978216561460317
+"Within-region biological replicates","Midbrain","E16.5","1 versus 2",0.97812755250359
+"Within-region biological replicates","Midbrain","P0","1 versus 2",0.981097246820217
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E10.5","1 versus 1",0.998214577502749
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E10.5","1 versus 2",0.978481006632248
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E10.5","2 versus 1",0.980075119165151
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E10.5","2 versus 2",0.997702538301683
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E11.5","1 versus 1",0.997854756649652
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E11.5","1 versus 2",0.982197113052801
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E11.5","2 versus 1",0.98177821384073
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E11.5","2 versus 2",0.998049919969884
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E12.5","1 versus 1",0.99663023580615
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E12.5","1 versus 2",0.978904547013665
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E12.5","2 versus 1",0.977808769221793
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E12.5","2 versus 2",0.997158836166005
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E13.5","1 versus 1",0.996736468872617
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E13.5","1 versus 2",0.976396978518566
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E13.5","2 versus 1",0.97805621381917
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E13.5","2 versus 2",0.995221835134322
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E14.5","1 versus 1",0.997183714789434
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E14.5","1 versus 2",0.976625341976624
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E14.5","2 versus 1",0.977018990635546
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E14.5","2 versus 2",0.997700149564596
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E15.5","1 versus 1",0.997005871632937
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E15.5","1 versus 2",0.977614561039363
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E15.5","2 versus 1",0.97775585275162
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E15.5","2 versus 2",0.995926446197407
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E16.5","1 versus 1",0.997794527940425
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E16.5","1 versus 2",0.981280994042039
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E16.5","2 versus 1",0.980650582961816
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","E16.5","2 versus 2",0.999252926190716
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","P0","1 versus 1",0.997556263424809
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","P0","1 versus 2",0.983938385403547
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","P0","2 versus 1",0.984434909003115
+"Same-stage cross-region replicate combinations","Forebrain vs Hindbrain","P0","2 versus 2",0.99760861984264
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E10.5","1 versus 1",0.974925902417435
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E10.5","1 versus 2",0.977056117977709
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E10.5","2 versus 1",0.98388075014925
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E10.5","2 versus 2",0.979756252403825
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E11.5","1 versus 1",0.975905155717267
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E11.5","1 versus 2",0.97658715494779
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E11.5","2 versus 1",0.973734484392959
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E11.5","2 versus 2",0.973001299508437
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E12.5","1 versus 1",0.970730915811098
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E12.5","1 versus 2",0.968395166036396
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E12.5","2 versus 1",0.969123813768413
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E12.5","2 versus 2",0.96707416282383
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E13.5","1 versus 1",0.965686624385906
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E13.5","1 versus 2",0.966355948995201
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E13.5","2 versus 1",0.967617037471117
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E13.5","2 versus 2",0.965965813818727
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E14.5","1 versus 1",0.958870473376407
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E14.5","1 versus 2",0.968948975112287
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E14.5","2 versus 1",0.96115243409121
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E14.5","2 versus 2",0.96915453382445
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E15.5","1 versus 1",0.831468504241106
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E15.5","1 versus 2",0.838780590536968
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E15.5","2 versus 1",0.823611949182979
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E15.5","2 versus 2",0.829079668527783
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E16.5","1 versus 1",0.972672457089405
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E16.5","1 versus 2",0.96979457278168
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E16.5","2 versus 1",0.973819544868979
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","E16.5","2 versus 2",0.969636175975758
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","P0","1 versus 1",0.97235268784932
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","P0","1 versus 2",0.970071326066985
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","P0","2 versus 1",0.97277627957028
+"Same-stage cross-region replicate combinations","Forebrain vs Midbrain","P0","2 versus 2",0.971544215489783
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E10.5","1 versus 1",0.975000947236389
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E10.5","1 versus 2",0.976162818526973
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E10.5","2 versus 1",0.983529973764341
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E10.5","2 versus 2",0.979745105550877
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E11.5","1 versus 1",0.977696794605338
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E11.5","1 versus 2",0.976187070376649
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E11.5","2 versus 1",0.973862354990075
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E11.5","2 versus 2",0.972794115766714
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E12.5","1 versus 1",0.971112077812342
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E12.5","1 versus 2",0.969616268374967
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E12.5","2 versus 1",0.969254019987965
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E12.5","2 versus 2",0.966362849436123
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E13.5","1 versus 1",0.967761689704283
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E13.5","1 versus 2",0.966727433367998
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E13.5","2 versus 1",0.967577209421848
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E13.5","2 versus 2",0.96541334693912
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E14.5","1 versus 1",0.960952643665308
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E14.5","1 versus 2",0.967331271142014
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E14.5","2 versus 1",0.961134569704855
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E14.5","2 versus 2",0.96916388094194
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E15.5","1 versus 1",0.831012996820243
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E15.5","1 versus 2",0.838661049535023
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E15.5","2 versus 1",0.823144430942521
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E15.5","2 versus 2",0.830226555105409
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E16.5","1 versus 1",0.972754928960026
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E16.5","1 versus 2",0.969784578768632
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E16.5","2 versus 1",0.973625161857876
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","E16.5","2 versus 2",0.969406487528159
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","P0","1 versus 1",0.97231081951659
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","P0","1 versus 2",0.968695970385454
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","P0","2 versus 1",0.973228949710357
+"Same-stage cross-region replicate combinations","Hindbrain vs Midbrain","P0","2 versus 2",0.970940966592134

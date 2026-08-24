@@ -1,0 +1,7 @@
+"cohort","metric","n","median","q25","q75"
+"E15.5 episode isoforms","cohort transcript length",1073,3632,2413,4933
+"Other midbrain DTU isoforms","cohort transcript length",4277,3029,1920,4348
+"E15.5 higher","direction-specific transcript length",517,3616,2455,4864
+"E15.5 lower","direction-specific transcript length",556,3688.5,2378,4979
+"Non-episode DTU isoforms in episode genes","same-gene comparison transcript length",481,3746,2646,4716
+"Reciprocal genes","higher-minus-lower transcript length",405,-9,-163,154

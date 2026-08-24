@@ -1,25 +1,21 @@
 # Release status
 
-This repository is a prepublication manuscript-and-code snapshot. It is not
-yet the final archival reproducibility deposit.
+The authors have confirmed the rights necessary to publish the manuscript,
+analysis code, figures, tables, and author-created derived outputs in this
+repository. The repository uses a mixed licence:
 
-The project release builder currently reports an audit-only state because a
-top-level licence has not been selected and the source-rights confirmation
-files for both companion analyses have not been supplied. The public Git
-history therefore excludes these rights-pending generated-output directories:
+- MIT for source code, scripts, configuration, and build tooling;
+- CC BY 4.0 for manuscript content, figures, documentation, tables, and
+  author-created derived data.
 
-- `dtu_analysis/data/`
-- `dtu_analysis/figures/`
-- `dtu_analysis/tables/`
-- `methylation_analysis/figures/`
-- `methylation_analysis/results/`
+The complete fail-closed release allow-lists for `dtu_analysis/` and
+`methylation_analysis/` are included in the versioned snapshot. Third-party
+raw inputs, archived `.RData` and `.rds` objects containing source material,
+local toolchains, caches, and working directories remain excluded.
 
-The manuscript, analysis code, build tooling, public accession tables,
-provenance records, audited article figures and compiled PDFs are included.
-The omitted outputs can be regenerated from authorised inputs using the
-documented analysis code. They will be added to an immutable archival release
-only after the authors confirm redistribution rights and select a licence.
-
-The reusable post-inference implementation is released independently as
+`RELEASE_CONTENTS.tsv` records the byte size and SHA-256 digest of every file
+in the deterministic archive. The reusable post-inference implementation is
+released independently as
 [`transientDTU`](https://github.com/Kohze/transientDTU), version 0.99.1 for
 this manuscript snapshot.
+

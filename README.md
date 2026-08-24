@@ -6,9 +6,9 @@ contain the analysis code and derived outputs, while `figures/` contains the
 displayed graphical assets. The public repository is
 <https://github.com/Kohze/developmental-dtu-patterns>.
 
-This is a prepublication manuscript-and-code snapshot. See
-[`RELEASE_STATUS.md`](RELEASE_STATUS.md) for the precise boundary between the
-public materials and the rights-pending companion outputs.
+The repository uses MIT for code and CC BY 4.0 for manuscript content,
+figures, tables and author-created derived data. See `LICENSE` and
+`RELEASE_STATUS.md` for scope and exclusions.
 
 ## Scientific hierarchy
 
@@ -67,9 +67,8 @@ The current verified builds from 24 August 2026 contain 40 pages in
 `manuscript.pdf`, 33 pages in `submission_main.pdf` and 14 pages in
 `supplementary_figures.pdf`.
 
-Both build scripts can use a local untracked `tools/miktex/` toolchain and fall
-back to a system MiKTeX installation when an explicit `-TexBin` is not
-supplied. The large local toolchain is intentionally not part of Git history.
+Both build scripts prefer the bundled `tools/miktex/` toolchain and fall back
+to a system MiKTeX installation when an explicit `-TexBin` is not supplied.
 
 `prepare_journal_figures.py` creates 31 dimension-normalized PDFs in
 `journal_upload_figures/` without modifying the byte-audited source figures.
@@ -79,20 +78,18 @@ summarizes the result. `BMC_GENOMICS_COVER_LETTER_DRAFT.md` is the current
 journal cover letter with the corresponding-author and intended GitHub
 repository details completed.
 
-`prepare_release.ps1` now stages the combined article and both complete
+`prepare_release.ps1` stages the combined article and both complete
 companion analyses as one deterministic, checksummed release. The companion
 contents are namespaced as `dtu_analysis/` and `methylation_analysis/` and are
 selected through their existing fail-closed allow-lists. See
-`PUBLIC_RELEASE_MANIFEST.md`. Until licences and source-rights confirmations
-are supplied, the builder can produce an audit-only candidate but correctly
-refuses a depositable release.
+`PUBLIC_RELEASE_MANIFEST.md`. The mixed licence and source-rights confirmation
+records now satisfy the builder's deposit gates while third-party raw inputs
+and archived source objects remain excluded.
 
 Key machine-readable claim and specification records are copied into
-`tables/`. Complete analysis code is retained in the companion `dtu_analysis`
-and `methylation_analysis` namespaces. Rights-pending generated outputs are
-withheld from the public Git history until the authors clear the release gates;
-the final archive must release the permitted outputs with the combined article
-under one persistent identifier.
+`tables/`. Complete allow-listed analysis code and derived outputs are retained
+in the companion `dtu_analysis` and `methylation_analysis` namespaces and are
+released with the combined article under one versioned identifier.
 
 See `PUBLICATION_READINESS_AUDIT.md` for the audit verdict and
 `SUBMISSION_CHECKLIST.md` for remaining gates. `PARAGRAPH_LEVEL_AUDIT.md`

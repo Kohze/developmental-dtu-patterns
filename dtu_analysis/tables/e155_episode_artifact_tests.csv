@@ -1,0 +1,4 @@
+"test","estimate","p_value","n"
+"E15.5 higher-versus-lower isoform length (Wilcoxon rank-sum)",-72.5,0.627397214605133,1073
+"Reciprocal genes with higher isoforms shorter than lower isoforms (sign test)",0.526184538653367,0.317915257122917,405
+"E15.5 episode versus non-episode DTU isoform length within episode genes (Wilcoxon rank-sum)",-114,0.335173942577598,1554

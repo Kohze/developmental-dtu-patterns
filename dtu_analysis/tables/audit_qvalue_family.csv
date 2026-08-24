@@ -1,0 +1,4 @@
+"region","contrasts","input_isoforms_per_contrast_min","input_isoforms_per_contrast_max","retained_rows_per_contrast_min","retained_rows_per_contrast_max","adjustment_scope","across_contrast_control","across_region_control","exact_recomputation_from_reduced_object"
+"Forebrain",28,29910,29910,5520,6239,"One DEXSeq model and Benjamini-Hochberg-adjusted isoform p-value family per region-specific stage-pair contrast",FALSE,FALSE,FALSE
+"Hindbrain",28,29908,29908,5487,6215,"One DEXSeq model and Benjamini-Hochberg-adjusted isoform p-value family per region-specific stage-pair contrast",FALSE,FALSE,FALSE
+"Midbrain",28,29902,29902,5479,6448,"One DEXSeq model and Benjamini-Hochberg-adjusted isoform p-value family per region-specific stage-pair contrast",FALSE,FALSE,FALSE

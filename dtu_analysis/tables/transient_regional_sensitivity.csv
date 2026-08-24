@@ -1,0 +1,7 @@
+"setting","q_threshold","effect_threshold","flank_threshold","episodes","genes","e15_5_single_stage_episodes","non_e15_5_episodes"
+"primary",0.05,0.1,0.1,1348,735,1203,145
+"q_0.01",0.01,0.1,0.1,1044,594,972,72
+"effect_0.15",0.05,0.15,0.1,1111,627,1025,86
+"effect_0.20",0.05,0.2,0.1,890,517,836,54
+"flank_0.05",0.05,0.1,0.05,802,482,740,62
+"flank_0.15",0.05,0.1,0.15,1588,833,1388,200

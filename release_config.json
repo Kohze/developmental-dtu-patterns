@@ -6,6 +6,7 @@
     "PUBLIC_RELEASE_MANIFEST.md",
     "PUBLICATION_CLAIM_LEDGER_2026-08-10.csv",
     "README.md",
+    "RELEASE_STATUS.md",
     "build.ps1",
     "build_submission.ps1",
     "compose_revised_figure03.py",

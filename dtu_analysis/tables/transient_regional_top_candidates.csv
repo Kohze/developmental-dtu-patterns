@@ -1,0 +1,7 @@
+"gene_id","gene_name","region","start_stage","end_stage","isoforms","max_worst_pair_q","max_abs_usage_difference","min_replicate_separation"
+"Scg3","Scg3","Midbrain","15.5","15.5",2,2.69939487499784e-22,0.605825,0.5955
+"Gpm6a","Gpm6a","Midbrain","15.5","15.5",2,3.03609846176557e-17,0.5719,0.5668
+"Ntrk2","Ntrk2","Midbrain","15.5","15.5",2,4.49649559396648e-15,0.49275,0.4897
+"Tecr","Tecr","Midbrain","15.5","15.5",2,1.70389701200499e-14,0.51175,0.4983
+"Armc8","Armc8","Midbrain","15.5","15.5",2,2.62739841815944e-14,0.4992,0.485
+"Bin1","Bin1","Midbrain","15.5","15.5",2,6.48253732905685e-14,0.73465,0.712
