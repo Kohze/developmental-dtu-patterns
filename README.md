@@ -6,7 +6,7 @@
 
 [![Release](https://img.shields.io/github/v/release/Kohze/developmental-dtu-patterns?include_prereleases&label=release)](https://github.com/Kohze/developmental-dtu-patterns/releases)
 [![Status](https://img.shields.io/badge/status-prepublication-orange)](RELEASE_STATUS.md)
-[![R package](https://img.shields.io/badge/R%20package-transientDTU%200.99.1-276DC3)](https://github.com/Kohze/transientDTU)
+[![R package](https://img.shields.io/badge/R%20package-transientDTU%200.99.2-276DC3)](https://github.com/Kohze/transientDTU)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue)](LICENSE)
 
 [Read the manuscript](manuscript.pdf) ·
